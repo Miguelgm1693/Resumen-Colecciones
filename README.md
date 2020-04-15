@@ -23,8 +23,10 @@ Las **ventajas** de usar frameworks de colecciones pueden ser:
 
 ### Iterable <E> ###
   
-  Concepto de Iterador. Patrón de diseño que nos permite recorrer y eliminar elementos.
-  Nos permite usar forEach y el bucle tipo for-each.
+  Concepto de Iterador.
+  
+  - Patrón de diseño que nos permite recorrer y eliminar elementos.
+  - Nos permite usar forEach y el bucle tipo for-each.
 
 
 
