@@ -51,8 +51,11 @@ Las **ventajas** de usar frameworks de colecciones pueden ser:
   - Añade funcionalidades de _Collection<E>_:
   
     · Acceso posicional
+    
     · Búsqueda
+    
     · Iteración extendida
+    
     · Operaciones sobre un rango de elementos de la lista
   
 
