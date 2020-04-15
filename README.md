@@ -40,6 +40,13 @@ Las **ventajas** de usar frameworks de colecciones pueden ser:
   - Trata de un _Collection<E>_ no permite duplicados
   - No hay acceso posicional
   - Mejora implementación de los métodos _equals_ y _hashCode_
+  
+  **Implementaciones de Set<E>**
+  - LinkedHashSet<E> --> Orden de inserción. Almacena valores en una tabla hash con una lista doblemente enlazada
+  - HashSet<E> --> Más rápido. Almacena valores en una tabla hash
+  - TreeSet<E> --> Orden según valor. Almacena sus valores en un árbol _red-black_
+  
+
 
 
 
