@@ -100,9 +100,9 @@ Las **ventajas** de usar frameworks de colecciones pueden ser:
 ## Implementaciones menos usadas ##
 - Set: 
 
-      · EnumSet
+     · EnumSet
       
-      · CopyOnWriteArraySet
+     · CopyOnWriteArraySet
       
  
   
