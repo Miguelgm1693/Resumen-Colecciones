@@ -98,11 +98,41 @@ Las **ventajas** de usar frameworks de colecciones pueden ser:
 - Varios procesos / hilos que compiten por el uso de la colección
 
 ## Implementaciones menos usadas ##
-- Set: 
+- Set<E>: 
 
      · EnumSet
       
      · CopyOnWriteArraySet
+     
+ - Map <K,V>:
+    
+     · EnumMap
+     
+     · WeakHashMap
+     
+     · IdentityHashMap
+  
+  - Deque <E>:
+     
+     · LinkedBlokingDeque
+     
+  - Queue <E>:
+  
+     · PriorityQueue
+     
+     · BlockingQueue
+     
+## Algoritmos ##
+
+- Disponible en clase _Collections_: Ordena / Desordena, búsqueda y operaciones: max/min , frecuencia,...
+
+## Librerías mas usuales ##
+
+- Guava: implementada por Google (Java/Android)
+
+- Eclipse Collections: API más legible 
+
+- Apache Commons Collections: Colecciones tipo _Bag_
       
  
   
