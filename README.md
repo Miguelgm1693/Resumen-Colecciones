@@ -27,6 +27,19 @@ Las **ventajas** de usar frameworks de colecciones pueden ser:
   
   - Patrón de diseño que nos permite recorrer y eliminar elementos.
   - Nos permite usar forEach y el bucle tipo for-each.
+  
+### Collection <E> ###
+  
+  - Extiende a _Iterable <E>_ (hereda su funcionalidad)
+  - Representa un grupo de elementos
+  - Todas las interfaces heredan de él menos Map y derivados
+  - Sirve para manipular colecciones de manera general
+  
+### Set <E> ###
+  
+  - Trata de un _Collection<E>_ no permite duplicados
+  - No hay acceso posicional
+  - Mejora implementación de los métodos _equals_ y _hashCode_
 
 
 
